@@ -12,6 +12,7 @@ import { setupCollision } from '@/utils/setupCollision';
 import { setupScene } from '@/utils/setupScene';
 import Modal from './Modal.vue';
 import { useModalStore } from '@/stores/modalStore';
+import Audio from './Audio.vue';
 
 const modalStore = useModalStore();
 
@@ -118,12 +119,12 @@ onMounted(() => {
     <div id="museum-container"></div>
     <Modal :show="modalStore.showModal" @close="modalStore.closeModal" :title="modalStore.selectedTitle"
         :collection="modalStore.selectedCollection">
-        <img :src="modalStore.selectedImage" alt="Imagem ampliada" class="w-full h-auto" />
+        <img :src="modalStore.selectedImage" alt="Imagem ampliada" class="w-full h-fit" />
     </Modal>
+    <Audio />
     <div class="fixed bottom-0 left-1/2 transform -translate-x-1/2">
-        <button class="text-red-500 p-4">
-            TESTE
-        </button>
+        <h1 class="bg-white bg-opacity-75 text-purple-500 p-2 mb-1 text-lg font-bold rounded shadow-2xl">
+            Museu de Nicce, a mais bela obra de arte &#10084;
+        </h1>
     </div>
-
 </template>

@@ -94,10 +94,10 @@ const maxWidthClass = computed(() => {
                 leave-from-class="opacity-100 translate-y-0 sm:scale-100"
                 leave-to-class="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"> -->
             <div v-show="show"
-                class="mb-6 bg-opacity-5 rounded-lg overflow-hidden shadow-xl transform transition-all sm:w-full sm:mx-auto"
+                class="mb-6 bg-white rounded-lg shadow-xl transform transition-all sm:w-full sm:mx-auto max-h-screen overflow-hidden"
                 :class="maxWidthClass">
                 <slot v-if="showSlot" />
-                <div class="p-4 text-white text-2xl">
+                <div class="p-2 bg-white bg-opacity-75 text-black text-xl flex items-center justify-between absolute bottom-0 z-50 gap-8 left-1/2 transform -translate-x-1/2 w-full">
                     <div class="flex gap-2">
                         <h1 class="font-bold">Título:</h1>
                         <span class="">{{ title }}</span>
