@@ -5,7 +5,7 @@ export function createCeiling(scene) {
 
     // Carregar a textura do teto
     const ceilingTexture = textureLoader.load(
-        'src/assets/woodtexture.jpg', // Caminho da imagem
+        'assets/woodtexture.jpg', // Caminho da imagem
         undefined,
         undefined,
         (error) => {

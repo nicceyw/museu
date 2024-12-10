@@ -10,7 +10,7 @@ export function createFloor(scene) {
   // Adicionando textura
   const textureLoader = new THREE.TextureLoader();
   textureLoader.load(
-    'src/assets/woodtexture.jpg',
+    'assets/woodtexture.jpg',
     (texture) => {
       floor.material.map = texture;
       floor.material.needsUpdate = true;

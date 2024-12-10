@@ -40,7 +40,7 @@ onMounted(() => {
   // Substituir a cor por uma textura de madeira
   const textureLoader = new THREE.TextureLoader();
   textureLoader.load(
-    'src/assets/woodtexture.jpg', // Substitua pelo caminho da sua imagem de madeira
+    'assets/woodtexture.jpg', // Substitua pelo caminho da sua imagem de madeira
     (texture) => {
       floor.material.map = texture; // Aplica a textura ao material
       floor.material.needsUpdate = true; // Atualiza o material
@@ -109,7 +109,7 @@ onMounted(() => {
     new THREE.Vector3(0, 5, -19.8),
     new THREE.Euler(0, 0, 0),
     0.1,
-    ['src/nicce/1.jpeg', 'src/nicce/2.jpeg'] // Imagens para a parede de trás
+    ['nicce/1.jpeg', 'nicce/2.jpeg'] // Imagens para a parede de trás
   );
 
   addFramesToWall(
@@ -117,7 +117,7 @@ onMounted(() => {
     new THREE.Vector3(0, 5, 19.8),
     new THREE.Euler(0, Math.PI, 0),
     -0.1,
-    ['src/nicce/3.jpeg', 'src/nicce/4.jpeg'] // Imagens para a parede da frente
+    ['nicce/3.jpeg', 'nicce/4.jpeg'] // Imagens para a parede da frente
   );
 
   addFramesToWall(
@@ -125,7 +125,7 @@ onMounted(() => {
     new THREE.Vector3(-19.8, 5, 0),
     new THREE.Euler(0, Math.PI / 2, 0),
     0.1,
-    ['src/nicce/5.jpeg', 'src/nicce/6.jpeg'] // Imagens para a parede esquerda
+    ['nicce/5.jpeg', 'nicce/6.jpeg'] // Imagens para a parede esquerda
   );
 
   addFramesToWall(
@@ -133,7 +133,7 @@ onMounted(() => {
     new THREE.Vector3(19.8, 5, 0),
     new THREE.Euler(0, -Math.PI / 2, 0),
     -0.1,
-    ['src/nicce/7.jpeg', 'src/nicce/8.jpeg'] // Imagens para a parede direita
+    ['nicce/7.jpeg', 'nicce/8.jpeg'] // Imagens para a parede direita
   );
 
   // Animação e Renderização

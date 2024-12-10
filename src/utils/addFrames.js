@@ -15,7 +15,7 @@ export function addFrames(scene, wallPosition, wallRotation, depthOffset, frames
     });
 
     // Textura da moldura
-    const frameTexture = textureLoader.load('src/assets/moldura.png', undefined, undefined, (error) => {
+    const frameTexture = textureLoader.load('assets/moldura.png', undefined, undefined, (error) => {
       console.error('Erro ao carregar a textura da moldura:', error);
     });
 

@@ -32,9 +32,9 @@ onMounted(() => {
         new THREE.Euler(0, 0, 0),
         0.1,
         [
-            { src: 'src/nicce/1.jpeg', title: 'Apreciando a vista', collection: 'Morro Ferrabrás' },
-            { src: 'src/nicce/2.jpeg', title: 'Segurando os céus', collection: 'Morro Ferrabrás' },
-            { src: 'src/nicce/3.jpeg', title: 'Absorvendo a luz', collection: 'Morro Ferrabrás' },
+            { src: 'nicce/1.jpeg', title: 'Apreciando a vista', collection: 'Morro Ferrabrás' },
+            { src: 'nicce/2.jpeg', title: 'Segurando os céus', collection: 'Morro Ferrabrás' },
+            { src: 'nicce/3.jpeg', title: 'Absorvendo a luz', collection: 'Morro Ferrabrás' },
         ],
         10 // Gap de 10 unidades entre as fotos
     );
@@ -46,9 +46,9 @@ onMounted(() => {
         new THREE.Euler(0, Math.PI, 0),
         -0.1,
         [
-            { src: 'src/nicce/13.jpeg', title: 'Mão na cintura', collection: 'Tarde de sol' },
-            { src: 'src/nicce/14.jpeg', title: 'Arrumando o cabelo', collection: 'Tarde de sol' },
-            { src: 'src/nicce/15.jpeg', title: 'Tapando o sol', collection: 'Tarde de sol' },
+            { src: 'nicce/13.jpeg', title: 'Mão na cintura', collection: 'Tarde de sol' },
+            { src: 'nicce/14.jpeg', title: 'Arrumando o cabelo', collection: 'Tarde de sol' },
+            { src: 'nicce/15.jpeg', title: 'Tapando o sol', collection: 'Tarde de sol' },
         ],
         10 // Gap de 8 unidades entre as fotos
     );
@@ -60,10 +60,10 @@ onMounted(() => {
         new THREE.Euler(0, Math.PI / 2, 0),
         0.1,
         [
-            { src: 'src/nicce/4.jpeg', title: 'Estacionamento', collection: '20 borboletas' },
-            { src: 'src/nicce/5.jpeg', title: 'Bolo de aniversário', collection: '20 borboletas' },
-            { src: 'src/nicce/6.jpeg', title: 'Look', collection: '20 borboletas' },
-            { src: 'src/nicce/7.jpeg', title: 'Sorrindo', collection: '20 borboletas' },
+            { src: 'nicce/4.jpeg', title: 'Estacionamento', collection: '20 borboletas' },
+            { src: 'nicce/5.jpeg', title: 'Bolo de aniversário', collection: '20 borboletas' },
+            { src: 'nicce/6.jpeg', title: 'Look', collection: '20 borboletas' },
+            { src: 'nicce/7.jpeg', title: 'Sorrindo', collection: '20 borboletas' },
         ],
         10
     );
@@ -75,10 +75,10 @@ onMounted(() => {
         new THREE.Euler(0, -Math.PI / 2, 0),
         -0.1,
         [
-            { src: 'src/nicce/8.jpeg', title: 'Cadeira', collection: 'Calvin Klein' },
-            // { src: 'src/nicce/9.jpeg', title: 'Aurora boreal', collection: 'Calvin Klein' },
-            { src: 'src/nicce/10.jpeg', title: 'Olhar', collection: 'Calvin Klein' },
-            { src: 'src/nicce/11.jpeg', title: 'Ligação', collection: 'Calvin Klein' },
+            { src: 'nicce/8.jpeg', title: 'Cadeira', collection: 'Calvin Klein' },
+            // { src: 'nicce/9.jpeg', title: 'Aurora boreal', collection: 'Calvin Klein' },
+            { src: 'nicce/10.jpeg', title: 'Olhar', collection: 'Calvin Klein' },
+            { src: 'nicce/11.jpeg', title: 'Ligação', collection: 'Calvin Klein' },
         ],
         9 // Gap de 9 unidades entre as fotos
     );
